@@ -9,7 +9,7 @@ public class PositiveTest {
     @Test
     void test() {
         open("http://localhost:9999/");
-        $("span[data-test-id=name] input").setValue("Иван");
+        $("span[data-test-id=name] input").setValue("Иван Иванов");
         $("span[data-test-id=phone] input").setValue("+79306666666");
         $(".checkbox__box").click();
         $(".button__text").click();
